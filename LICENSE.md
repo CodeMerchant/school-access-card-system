@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 Shama Hoque
+Copyright for portions of LACS are held by [Shama Hoque, 2018] as part of MERN Skeleton. All other copyright for LACS are held by [CodeMerchant, 2020].
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

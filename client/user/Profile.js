@@ -80,7 +80,7 @@ export default function Profile({ match }) {
 						//auth.isAuthenticated().user._id == user._id && (
 							<ListItemSecondaryAction>
 								<Link to={"/user/accesscard/" + user._id}>
-									<Button variant="contained" color="primary">
+									<Button variant="contained" disabled = {user.admin}color="primary">
 										Access Card
 									</Button>
 								</Link>

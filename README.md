@@ -1,12 +1,11 @@
-# MERN Skeleton
+# LYNX ACCESS CARD SYSTEM [LACS] (FINAL YEAR PROJECT)
 
-A skeleton application with basic user CRUD and auth features - developed using React, Node, Express and MongoDB.
+A school management system that allows students to print an access card (for exams). Printing of access card is dependent on certain criteria being met (i.e student's monthly balance needs to be at 0.00 in order to qualify) - developed using the MERN stack.
 
-![MERN Skeleton](https://mernbook.s3.amazonaws.com/git+/skeleton2.png "MERN Skeleton")
 
-### [Live Demo](http://skeleton2.mernbook.com/ "MERN Skeleton")
 
-#### What you need to run this code
+
+#### What you will need to run this code
 1. Node (13.12.0)
 2. NPM (6.14.4) or Yarn (1.22.4)
 3. MongoDB (4.2.0)

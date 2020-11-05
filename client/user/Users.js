@@ -13,7 +13,6 @@ import ArrowForward from "@material-ui/icons/ArrowForward";
 import Person from "@material-ui/icons/Person";
 import { Link } from "react-router-dom";
 import { list } from "./api-user.js";
-import DeleteUser from "./DeleteUser";
 import Edit from "@material-ui/icons/Edit";
 
 const useStyles = makeStyles((theme) => ({
