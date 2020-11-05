@@ -18,13 +18,12 @@
 	"homepage": "https://github.com/shamahoque/mern-skeleton",
 	"main": "./dist/server.generated.js",
 	"scripts": {
-		"development": "nodemon",
-		"build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js && react-scripts build",
-		"start": "NODE_ENV=production node ./dist/server.generated.js && serve -s build",
-		"dev": "react-scripts start",
-		"test": "react-scripts test --env=jsdom",
-		"eject": "react-scripts eject",
-		"heroku-postbuild": "npm run build"
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
 	},
 	"engines": {
 		"node": "13.12.0",
