@@ -13,6 +13,24 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
       }}/>
     )
   )}/>
+  /* || 
+		process.env.MONGO_HOST ||
+		"mongodb://" +
+			(process.env.IP || "localhost") +
+			":" +
+			(process.env.MONGO_PORT || "27017") +
+      "/mernproject",*/
+      
+      /**mongoUri:
+    process.env.MONGODB_URI  */
+    /*mongoUri:
+		process.env.MONGODB_URI || 
+		process.env.MONGO_HOST ||
+		"mongodb://" +
+			(process.env.IP || "localhost") +
+			":" +
+			(process.env.MONGO_PORT || "27017") +
+			"/mernproject",*/
 )
 
 export default PrivateRoute

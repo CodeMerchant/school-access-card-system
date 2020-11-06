@@ -2,11 +2,12 @@ import config from './../config/config'
 import app from './express'
 import mongoose from 'mongoose'
 
+require('dotenv').config();
 // Connection URL
 mongoose.Promise = global.Promise
-mongoose.connect(config.mongoUri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
 mongoose.connection.on('error', () => {
-  throw new Error(`unable to connect to database: ${config.mongoUri}`)
+  throw new Error(`unable to connect to database: ${process.env.MONGODB_URI}`)
 })
 
 app.listen(config.port, (err) => {
