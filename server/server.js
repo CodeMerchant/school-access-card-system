@@ -1,8 +1,6 @@
 import config from './../config/config'
 import app from './express'
 import mongoose from 'mongoose'
-import userRoutes from './routes/user.routes'
-import authRoutes from './routes/auth.routes'
 
 require('dotenv').config();
 // Connection URL
@@ -18,6 +16,3 @@ app.listen(process.env.PORT || 3000, (err) => {
   }
   console.info('Server started on port %s.', config.port)
 })
-
-app.use('/', userRoutes)
-app.use('/', authRoutes)
