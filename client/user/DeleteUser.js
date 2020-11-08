@@ -27,7 +27,7 @@ export default function DeleteUser(props) {
       if (data && data.error) {
         console.log(data.error)
       } else {
-        auth.clearJWT(() => console.log('deleted'))
+        console.log('deleted'),
         setRedirect(true)
       }
     })
