@@ -79,11 +79,11 @@ export default function StudentProfile({ match }) {
 							
                             <ListItemSecondaryAction>
 								
-                                <Link to={"/user/accesscard/" + user._id}>
-									<Button variant="contained" disabled = {user.nowDue > 0} color="primary">
+                                
+									<Button variant="contained" disabled = {user.nowDue > 0} href = {"/user/accesscard/" + user._id} color="primary">
                                     <PictureAsPdfIcon/> Access Card
 									</Button>
-								</Link>
+							
 								
 							</ListItemSecondaryAction>
 						//)
