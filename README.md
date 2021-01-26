@@ -20,3 +20,12 @@ A school management system that allows students to print an access card (for exa
 ----
 
 Live web version hosted on Heroku: https://lynx-access.herokuapp.com/
+Test it out using these two students credentials:
+
+Student1 login details(fees up to date):
+Email address: johnP@gmail.com
+Password: password
+
+Student2 login details(fees not up to date):
+Email address: johnO@gmail.com
+Password: password
